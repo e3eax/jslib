@@ -3,11 +3,7 @@ import reduce from "./reduce.js";
 
 function pipe(...fns) {
   return function (val) {
-
-    return reduce(fns, (prev, fn) => {
-      return fn.call(this, clone(prev));
-    }, val);
-
+    return reduce(fns, (prev, fn) => fn.call(this, clone(prev)), val);
   };
 }
 
