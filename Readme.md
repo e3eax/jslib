@@ -1,3 +1,4 @@
-A simple functional javascript library (mainly for learning purposes)
+A simple <b>functional</b> javascript library <i>(mainly for learning purposes)</i>
 
-I will be adding new features and functions continuously. #flow
+I will be adding new features and functions continuously. </br>
+<b>#flow</b>
