@@ -1,4 +1,6 @@
-function difference(list, compare) {
+import curry from "./curry.js";
+
+function _difference(list, compare) {
   const notIncluded = [];
 
   for (const x of list) {
@@ -15,5 +17,7 @@ function difference(list, compare) {
 
   return notIncluded;
 }
+
+var difference = curry(_difference);
 
 export default difference;
