@@ -11,3 +11,5 @@ function difference(list, compare) {
 
   return notIncluded;
 }
+
+export default difference;
