@@ -8,3 +8,5 @@ function debounce(fn, delay) {
     }, delay);
   };
 }
+
+export default debounce;

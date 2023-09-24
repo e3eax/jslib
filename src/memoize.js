@@ -12,3 +12,5 @@ function memoize(fn) {
     return cache[key];
   };
 }
+
+export default memoize;
